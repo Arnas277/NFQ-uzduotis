@@ -1,0 +1,131 @@
+body {
+	background: #ccff99;
+	color: #003300;
+	font-size: 20px;
+}
+
+p {
+	font-size: 300%;
+}
+a {
+	background-color: #ffff99;
+	color: #003300;
+	text-decoration: none;
+	max-width: 65%;
+	font-size: 400%;
+	padding: 5px;
+	margin: 4px;
+	display: block;
+	position: centre;
+	border: solid 2px #000;
+	border-radius: 5px;
+}
+div {
+	display: block;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+
+select {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 150%;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin-left:auto; 
+  margin-right:auto;
+ 
+  font-size: 120%;
+  text-align: left;
+}
+#qwe {
+	font-size: 200%;
+	padding: 25px 0px;
+}
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+@media screen and (max-width : 859px)
+{
+  body
+  {
+    font-size: 70%;
+  }
+  a {
+	  max-width: 90%;
+  }
+  input {
+	  width: 100%;
+  }
+  select {
+	  width: 100%;
+  }
+
+}
+
+
+
+        
